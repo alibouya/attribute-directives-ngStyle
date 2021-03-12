@@ -1,0 +1,17 @@
+<div class="container">
+    <p
+    class = "para"
+    [ngClass]="{'exergue': true}"
+    
+    >ng-class-example works!</p>
+    
+</div>
+<div class="lampe"
+[ngClass]="{
+    allume:isAllume
+}"
+(click)="showHide()"
+>
+lampe
+</div>
+
